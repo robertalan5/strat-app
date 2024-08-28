@@ -13,6 +13,9 @@ export default function Rabbit() {
         case e.key === "s": {
           setTimeout(() => setShowPikachu(true), 2500);
         }
+        case e.key === "d": {
+          deleteItem();
+        }
       }
     };
 
